@@ -1,0 +1,49 @@
+@require("bootstrap");
+.loginForm {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  border: 3px solid #f1f1f1;
+  background-color: lightblue;
+  margin-top: 50px;
+}
+.list-card {
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+  margin-left: 8px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  font-size: 12px;
+}
+.image {
+  float: left;
+  width:150px;
+  height:150px;
+}
+.clearfix {
+  overflow: auto;
+}
+.information{
+  margin-top: 40px;
+}
+.button {
+  margin-top: 30px;
+  padding: 10px;
+  width: 100px;
+  background-color: cornflowerblue;
+  border: 2px solid lightgray;
+  border-radius: 0.8em;
+  font-size: 15px;
+}
+.form {
+  margin: auto;
+  width:90%;
+  align-items: center;
+}
+.header {
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 30px;
+}

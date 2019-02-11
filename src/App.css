@@ -1,0 +1,48 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+  position: relative;
+  margin-top: 55px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.outer-div {
+  position: relative;
+
+}
+.inner-div {
+  position: absolute;
+  top: 230px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5);
+  text-align: center;
+
+}
+
